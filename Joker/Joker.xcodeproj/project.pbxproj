@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273408FE1CD1D9C90018ACC3 /* ChatTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273408FD1CD1D9C90018ACC3 /* ChatTableViewController.m */; };
+		27FE14711CD071E9009C1C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14701CD071E9009C1C35 /* main.m */; };
+		27FE14741CD071E9009C1C35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14731CD071E9009C1C35 /* AppDelegate.m */; };
+		27FE147C1CD071E9009C1C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FE147B1CD071E9009C1C35 /* Assets.xcassets */; };
+		27FE147F1CD071E9009C1C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27FE147D1CD071E9009C1C35 /* LaunchScreen.storyboard */; };
+		27FE148A1CD071E9009C1C35 /* JokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14891CD071E9009C1C35 /* JokerTests.m */; };
+		27FE14951CD071E9009C1C35 /* JokerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14941CD071E9009C1C35 /* JokerUITests.m */; };
+		27FE14A41CD07230009C1C35 /* ConnectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14A31CD07230009C1C35 /* ConnectTableViewController.m */; };
+		27FE14A81CD07267009C1C35 /* ConnectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14A71CD07267009C1C35 /* ConnectTableViewCell.m */; };
+		27FE14AF1CD073A0009C1C35 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14AE1CD073A0009C1C35 /* SignInViewController.m */; };
+		27FE14B51CD136A0009C1C35 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FE14B41CD136A0009C1C35 /* ConnectViewController.m */; };
+		EC8F139049F55C4AE3993D79 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2052E8E648CBE30102F5A9A /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27FE14861CD071E9009C1C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FE14641CD071E9009C1C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FE146B1CD071E9009C1C35;
+			remoteInfo = Joker;
+		};
+		27FE14911CD071E9009C1C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FE14641CD071E9009C1C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FE146B1CD071E9009C1C35;
+			remoteInfo = Joker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273408FC1CD1D9C90018ACC3 /* ChatTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewController.h; sourceTree = "<group>"; };
+		273408FD1CD1D9C90018ACC3 /* ChatTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewController.m; sourceTree = "<group>"; };
+		27FE146C1CD071E9009C1C35 /* Joker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FE14701CD071E9009C1C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27FE14721CD071E9009C1C35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27FE14731CD071E9009C1C35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27FE147B1CD071E9009C1C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27FE147E1CD071E9009C1C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27FE14801CD071E9009C1C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FE14851CD071E9009C1C35 /* JokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FE14891CD071E9009C1C35 /* JokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokerTests.m; sourceTree = "<group>"; };
+		27FE148B1CD071E9009C1C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FE14901CD071E9009C1C35 /* JokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FE14941CD071E9009C1C35 /* JokerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokerUITests.m; sourceTree = "<group>"; };
+		27FE14961CD071E9009C1C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FE14A21CD07230009C1C35 /* ConnectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConnectTableViewController.h; path = ../ConnectTableViewController.h; sourceTree = "<group>"; };
+		27FE14A31CD07230009C1C35 /* ConnectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConnectTableViewController.m; path = ../ConnectTableViewController.m; sourceTree = "<group>"; };
+		27FE14A61CD07267009C1C35 /* ConnectTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectTableViewCell.h; sourceTree = "<group>"; };
+		27FE14A71CD07267009C1C35 /* ConnectTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectTableViewCell.m; sourceTree = "<group>"; };
+		27FE14AD1CD073A0009C1C35 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		27FE14AE1CD073A0009C1C35 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		27FE14B31CD136A0009C1C35 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		27FE14B41CD136A0009C1C35 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		2AB90421251F10BBA8C53EAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		588E602F580471DD2A4398D6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A2052E8E648CBE30102F5A9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FE14691CD071E9009C1C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8F139049F55C4AE3993D79 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE14821CD071E9009C1C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE148D1CD071E9009C1C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FE14631CD071E9009C1C35 = {
+			isa = PBXGroup;
+			children = (
+				27FE146E1CD071E9009C1C35 /* Joker */,
+				27FE14881CD071E9009C1C35 /* JokerTests */,
+				27FE14931CD071E9009C1C35 /* JokerUITests */,
+				27FE146D1CD071E9009C1C35 /* Products */,
+				31ADB5786CD2F04218A06220 /* Pods */,
+				2C110F4C6EE0B88C8E7ECCAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27FE146D1CD071E9009C1C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FE146C1CD071E9009C1C35 /* Joker.app */,
+				27FE14851CD071E9009C1C35 /* JokerTests.xctest */,
+				27FE14901CD071E9009C1C35 /* JokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FE146E1CD071E9009C1C35 /* Joker */ = {
+			isa = PBXGroup;
+			children = (
+				27FE14AC1CD072ED009C1C35 /* Sign */,
+				27FE14AB1CD07278009C1C35 /* Chat */,
+				27FE14AA1CD07273009C1C35 /* Edit */,
+				27FE14A51CD07246009C1C35 /* Connect */,
+				27FE14721CD071E9009C1C35 /* AppDelegate.h */,
+				27FE14731CD071E9009C1C35 /* AppDelegate.m */,
+				27FE147B1CD071E9009C1C35 /* Assets.xcassets */,
+				27FE147D1CD071E9009C1C35 /* LaunchScreen.storyboard */,
+				27FE14801CD071E9009C1C35 /* Info.plist */,
+				27FE146F1CD071E9009C1C35 /* Supporting Files */,
+			);
+			path = Joker;
+			sourceTree = "<group>";
+		};
+		27FE146F1CD071E9009C1C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27FE14701CD071E9009C1C35 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27FE14881CD071E9009C1C35 /* JokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				27FE14891CD071E9009C1C35 /* JokerTests.m */,
+				27FE148B1CD071E9009C1C35 /* Info.plist */,
+			);
+			path = JokerTests;
+			sourceTree = "<group>";
+		};
+		27FE14931CD071E9009C1C35 /* JokerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27FE14941CD071E9009C1C35 /* JokerUITests.m */,
+				27FE14961CD071E9009C1C35 /* Info.plist */,
+			);
+			path = JokerUITests;
+			sourceTree = "<group>";
+		};
+		27FE14A51CD07246009C1C35 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				27FE14B31CD136A0009C1C35 /* ConnectViewController.h */,
+				27FE14B41CD136A0009C1C35 /* ConnectViewController.m */,
+				27FE14A21CD07230009C1C35 /* ConnectTableViewController.h */,
+				27FE14A31CD07230009C1C35 /* ConnectTableViewController.m */,
+				27FE14A61CD07267009C1C35 /* ConnectTableViewCell.h */,
+				27FE14A71CD07267009C1C35 /* ConnectTableViewCell.m */,
+			);
+			name = Connect;
+			sourceTree = "<group>";
+		};
+		27FE14AA1CD07273009C1C35 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		27FE14AB1CD07278009C1C35 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				273408FC1CD1D9C90018ACC3 /* ChatTableViewController.h */,
+				273408FD1CD1D9C90018ACC3 /* ChatTableViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		27FE14AC1CD072ED009C1C35 /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+				27FE14AD1CD073A0009C1C35 /* SignInViewController.h */,
+				27FE14AE1CD073A0009C1C35 /* SignInViewController.m */,
+			);
+			name = Sign;
+			sourceTree = "<group>";
+		};
+		2C110F4C6EE0B88C8E7ECCAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2052E8E648CBE30102F5A9A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31ADB5786CD2F04218A06220 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AB90421251F10BBA8C53EAE /* Pods.debug.xcconfig */,
+				588E602F580471DD2A4398D6 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FE146B1CD071E9009C1C35 /* Joker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FE14991CD071E9009C1C35 /* Build configuration list for PBXNativeTarget "Joker" */;
+			buildPhases = (
+				D1FABB410CC95CC31B5F1797 /* Check Pods Manifest.lock */,
+				27FE14681CD071E9009C1C35 /* Sources */,
+				27FE14691CD071E9009C1C35 /* Frameworks */,
+				27FE146A1CD071E9009C1C35 /* Resources */,
+				F5F32EFE228A11EDDAD73516 /* Embed Pods Frameworks */,
+				D9094592815DC09A32E0D92A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Joker;
+			productName = Joker;
+			productReference = 27FE146C1CD071E9009C1C35 /* Joker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27FE14841CD071E9009C1C35 /* JokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FE149C1CD071E9009C1C35 /* Build configuration list for PBXNativeTarget "JokerTests" */;
+			buildPhases = (
+				27FE14811CD071E9009C1C35 /* Sources */,
+				27FE14821CD071E9009C1C35 /* Frameworks */,
+				27FE14831CD071E9009C1C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FE14871CD071E9009C1C35 /* PBXTargetDependency */,
+			);
+			name = JokerTests;
+			productName = JokerTests;
+			productReference = 27FE14851CD071E9009C1C35 /* JokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27FE148F1CD071E9009C1C35 /* JokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FE149F1CD071E9009C1C35 /* Build configuration list for PBXNativeTarget "JokerUITests" */;
+			buildPhases = (
+				27FE148C1CD071E9009C1C35 /* Sources */,
+				27FE148D1CD071E9009C1C35 /* Frameworks */,
+				27FE148E1CD071E9009C1C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FE14921CD071E9009C1C35 /* PBXTargetDependency */,
+			);
+			name = JokerUITests;
+			productName = JokerUITests;
+			productReference = 27FE14901CD071E9009C1C35 /* JokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FE14641CD071E9009C1C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "猫儿出墙";
+				TargetAttributes = {
+					27FE146B1CD071E9009C1C35 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 652H8R63G2;
+					};
+					27FE14841CD071E9009C1C35 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 652H8R63G2;
+						TestTargetID = 27FE146B1CD071E9009C1C35;
+					};
+					27FE148F1CD071E9009C1C35 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 652H8R63G2;
+						TestTargetID = 27FE146B1CD071E9009C1C35;
+					};
+				};
+			};
+			buildConfigurationList = 27FE14671CD071E9009C1C35 /* Build configuration list for PBXProject "Joker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27FE14631CD071E9009C1C35;
+			productRefGroup = 27FE146D1CD071E9009C1C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FE146B1CD071E9009C1C35 /* Joker */,
+				27FE14841CD071E9009C1C35 /* JokerTests */,
+				27FE148F1CD071E9009C1C35 /* JokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FE146A1CD071E9009C1C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE147F1CD071E9009C1C35 /* LaunchScreen.storyboard in Resources */,
+				27FE147C1CD071E9009C1C35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE14831CD071E9009C1C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE148E1CD071E9009C1C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1FABB410CC95CC31B5F1797 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9094592815DC09A32E0D92A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F32EFE228A11EDDAD73516 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FE14681CD071E9009C1C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE14AF1CD073A0009C1C35 /* SignInViewController.m in Sources */,
+				27FE14B51CD136A0009C1C35 /* ConnectViewController.m in Sources */,
+				27FE14741CD071E9009C1C35 /* AppDelegate.m in Sources */,
+				27FE14711CD071E9009C1C35 /* main.m in Sources */,
+				27FE14A81CD07267009C1C35 /* ConnectTableViewCell.m in Sources */,
+				273408FE1CD1D9C90018ACC3 /* ChatTableViewController.m in Sources */,
+				27FE14A41CD07230009C1C35 /* ConnectTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE14811CD071E9009C1C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE148A1CD071E9009C1C35 /* JokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FE148C1CD071E9009C1C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FE14951CD071E9009C1C35 /* JokerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27FE14871CD071E9009C1C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FE146B1CD071E9009C1C35 /* Joker */;
+			targetProxy = 27FE14861CD071E9009C1C35 /* PBXContainerItemProxy */;
+		};
+		27FE14921CD071E9009C1C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FE146B1CD071E9009C1C35 /* Joker */;
+			targetProxy = 27FE14911CD071E9009C1C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27FE147D1CD071E9009C1C35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27FE147E1CD071E9009C1C35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27FE14971CD071E9009C1C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27FE14981CD071E9009C1C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27FE149A1CD071E9009C1C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB90421251F10BBA8C53EAE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Joker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Joker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27FE149B1CD071E9009C1C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588E602F580471DD2A4398D6 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Joker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Joker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27FE149D1CD071E9009C1C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joker.app/Joker";
+			};
+			name = Debug;
+		};
+		27FE149E1CD071E9009C1C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JokerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Joker.app/Joker";
+			};
+			name = Release;
+		};
+		27FE14A01CD071E9009C1C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Joker;
+			};
+			name = Debug;
+		};
+		27FE14A11CD071E9009C1C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JokerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.JokerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Joker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FE14671CD071E9009C1C35 /* Build configuration list for PBXProject "Joker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE14971CD071E9009C1C35 /* Debug */,
+				27FE14981CD071E9009C1C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FE14991CD071E9009C1C35 /* Build configuration list for PBXNativeTarget "Joker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE149A1CD071E9009C1C35 /* Debug */,
+				27FE149B1CD071E9009C1C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FE149C1CD071E9009C1C35 /* Build configuration list for PBXNativeTarget "JokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE149D1CD071E9009C1C35 /* Debug */,
+				27FE149E1CD071E9009C1C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FE149F1CD071E9009C1C35 /* Build configuration list for PBXNativeTarget "JokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FE14A01CD071E9009C1C35 /* Debug */,
+				27FE14A11CD071E9009C1C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FE14641CD071E9009C1C35 /* Project object */;
+}
